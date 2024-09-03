@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="weather-info">
+      <h1>WEATHER</h1>
+      <div class="temperature">
+        <h1 id="fp"></h1>
+        <p id="fl"> </p>
+      </div>
+      <h2 id="kkd"></h2>
+      <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search area...">
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+    <div class="weather-details">
+      <h1 class="wd">Weather Details</h1>
+      <div class="detail">
+        <h3>Country</h3>
+        <div id="country"></div>
+      </div>
+      <div class="detail">
+        <h3>Humidity</h3>
+        <div id="humidity"></div>
+      </div>
+      <div class="detail">
+        <h3>Wind</h3>
+        <div id="wind"></div>
+      </div>
+      <div class="detail">
+        <h3>Pressure</h3>
+        <div id="pressure"></div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>

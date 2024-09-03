@@ -1,0 +1,99 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    background-image: url('https://wallpapercave.com/wp/wp6946237.jpg');
+    height: 100vh;
+    background-size: cover;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .weather-info {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+  }
+  
+  .temperature {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .weather-details {
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    margin-left: 50px;
+  }
+  
+  .detail {
+    margin-bottom: 20px;
+  }
+  
+  .detail h3 {
+    margin-bottom: 5px;
+  }
+  
+  .detail div {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+  }
+  
+  #search-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    width: 120px;
+  }
+  
+  #search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media(max-width:468px)
+  {
+    #search-input 
+    {
+        width: 200px;
+    }
+    #search-button 
+    {
+        width: 70px;
+    }
+    .container 
+    {
+        flex-direction: column;
+        
+    }
+    .weather-details 
+    {
+        margin-top: 150px;
+       justify-content: center;
+        width: 100%;
+    }
+    .container
+    {
+        background-image: url('https://wallpapercave.com/wp/wp6946237.jpg');
+    }
+  }
